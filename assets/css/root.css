@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&family=Yellowtail&display=swap');
+
+:root {
+    /* font-size */
+
+
+    --fs-s: 18px;
+    --fs-sm: 20px;
+    --fs-md: 28px;
+    --fs-lg: 50px;
+
+
+    /* color */
+
+    --midgray: #E9E6F5;
+    --lightpurple: #D5D5D5;
+    --purple: #D59DFF;
+    --white: #FFFFFF;
+    --lightgray: #FAF9FD;
+    --darkpurple: #3B2E58;
+    --black: #2E2E2E;
+    --darkblack: #000;
+    --blue: #0067B8;
+    --midpurple: #8661C5;
+
+
+    /* font-family */
+    --ff-Segoe: 'Segoe UI', sans-serif;
+
+}
+
+/* line-height */
+.lh-148 {
+    line-height: 148%;
+}
+
+.lh-139 {
+    line-height: 139%;
+}
+
+/* font-family */
+.fs-18 {
+    font-size: var(--fs-s);
+}
+
+.fs-22 {
+    font-size: var(--fs-sm);
+}
+
+.fs-35 {
+    font-size: var(--fs-md);
+}
+
+.fs-76 {
+    font-size: var(--fs-lg);
+}
+
+/* font-family */
+.ff-segoe {
+    font-family: var(--ff-Segoe);
+}
+
+/* color */
+
+.midgray {
+    background: var(--midgray);
+}
+
+.light-gray {
+    color: var(--lightgray);
+}
+
+.dark-purple {
+    color: var(--darkpurple);
+}
+
+.darkpurple {
+    background: var(--darkpurple);
+}
+
+.black {
+    color: var(--black);
+}
+
+.darkblack {
+    color: var(--darkblack);
+}
+
+.lightgray {
+    background: var(--lightgray);
+}
+
+.mid-purple {
+    background: var(--midpurple);
+}
+
+.purple {
+    background: var(--purple);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.border-bottom {
+    border-bottom: 2px solid var(--black) !important;
+}
+
+@media(min-width:992px) {
+    :root {
+        --fs-s: 18px;
+        --fs-sm: 22px;
+        --fs-md: 35px;
+        --fs-lg: 76px;
+    }
+}
